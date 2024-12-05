@@ -1,0 +1,1 @@
+can we make newspaper page like thing like one article with one page take whole screen. left part with image and all and all deatils on right and to go next page on article with animation of page fliping like animation huh can make it perfect please give code that work with my vite react js.

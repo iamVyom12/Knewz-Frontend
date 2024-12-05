@@ -1,0 +1,15 @@
+@keyframes clickAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.animate-click:active {
+    animation: clickAnimation 0.2s ease-in-out;
+}

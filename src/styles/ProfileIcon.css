@@ -1,0 +1,19 @@
+.profile-icon {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the SVG inside the icon */
+    /*padding: 0.5rem; !* Adjust padding to make space for border *!*/
+}
+
+.profile-icon svg {
+    border: 2px solid white; /* Border around the SVG */
+    border-radius: 50%; /* Make the SVG border circular */
+}

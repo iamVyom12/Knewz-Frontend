@@ -1,0 +1,22 @@
+.autocomplete-search-bar {
+    position: fixed;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    width: 500px;
+    display: flex;
+    justify-content: start;
+    gap: 0.5em;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.autocomplete-search-bar input {
+    width: 100%;
+    border: none;
+    outline: none;
+}
